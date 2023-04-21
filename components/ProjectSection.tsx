@@ -6,8 +6,8 @@ const projects = [
    {
       name: 'Omnifood App',
       description:
-         'Omnifood is a web app to help you eat healthy again with food tailored to your personal tastes nad nutritional needs.',
-      image: '/omnifood.png',
+         'Omnifood is a web app to help you eat healthy again with food tailored to your personal tastes and nutritional needs.',
+      image: '/omni.png',
       link: 'https://omnifood-project-v01.netlify.app/',
    },
    {

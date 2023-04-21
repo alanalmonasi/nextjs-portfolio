@@ -58,9 +58,7 @@ export const AboutSection = () => {
                   </p>
                   <br />
                   <p>
-                     I have a wide range of hobbies and passions that keep me
-                     busy. From reading, playing chess and sports to travelling.
-                     I love to keep myself engaged and learning new thing,
+                     I love to keep myself engaged and learning new things,
                      specially those related to technology. I am excited to see
                      where this journey will take me and I am always open to new
                      opportunities.

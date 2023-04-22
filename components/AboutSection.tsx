@@ -31,7 +31,7 @@ export const AboutSection = () => {
                About me
                <hr className="w-6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded" />
             </h1>
-            <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10">
+            <div className="flex flex-col space-y-10 items-stretch text-center justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10">
                <div className="md:w-1/2">
                   <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
                      Get to know me!

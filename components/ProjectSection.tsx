@@ -30,7 +30,7 @@ export const ProjectSection = () => {
             {projects.map((project, idx) => {
                return (
                   <div key={idx}>
-                     <div className="flex flex-col md:flex-row md:space-x-12">
+                     <div className="flex flex-col md:flex-row md:space-x-12 text-center md:text-left">
                         <div className="mt-8 md:w-1/2">
                            <Link href={project.link} target="_blank">
                               <Image
@@ -43,13 +43,16 @@ export const ProjectSection = () => {
                            </Link>
                         </div>
                         <div className="mt-12 md:w-1/2">
-                           <h1 className="text-4xl font-bold mb-6">
+                           <h1 className="text-3xl font-bold mb-6">
                               {project.name}
                            </h1>
                            <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-300 ">
                               {project.description}
                            </p>
-                           <div className="flex flex-row align-bottom space-x-4">
+                           <div className="flex flex-row align-bottom space-x-4 justify-end md:justify-start">
+                              <p className="text-blue-400 dark:text-blue-600 ">
+                                 Go to site
+                              </p>
                               <Link href={project.link} target="_blank">
                                  <BsArrowRightSquare
                                     size={30}

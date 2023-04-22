@@ -44,6 +44,13 @@ export const Footer = () => {
                      size={30}
                   />
                </a>
+               <a
+                  target="_blank"
+                  href="https://icons8.com/icon/13tOPAcPBRyK/dinosaur"
+                  className="text-neutral-500 dark:text-neutral-400"
+               >
+                  Dinosaur icon by Icons8
+               </a>
             </div>
          </div>
       </footer>
